@@ -1,6 +1,142 @@
 header {
     overflow: hidden;
-    height: 60px;
-    background-color: var(--ap-background-color-other);
+    box-shadow: 0px 3px 1px -2px;
 }
 
+.header1 {
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+}
+
+.header-shadow{
+    box-shadow: 1px 0 2px -2px #2e2e2e;
+}
+
+.header-c-1 {
+    width: 6%;
+    text-align: left;
+}
+
+.header-c-2 {
+    width: 16%;
+    text-align: center;
+}
+
+.header-c-3 {
+    width: 58%;
+    text-align: center;
+}
+
+.header-c-4 {
+    width: 13%;
+    text-align: center;
+}
+
+.header-c-5 {
+    width: 7%;
+    text-align: right;
+}
+
+.search {
+    width:120px;
+    padding: 0px 5px 0px 5px;
+    background: transparent url(../image/search-3-xxl.png) no-repeat 95px center;
+    background-size: 18px;
+    font-size: 12px;
+    line-height: 30px;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline;
+    line-height: var(--app-header-height);
+}
+
+nav {
+    text-align: var(--app-header-height);
+}
+
+nav ul li a:hover {
+    color:#2b2b2b;
+    
+}
+
+nav ul li a {
+    color:var(--font-color);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.25s;
+    display: inline;
+}
+
+nav ul li + li {
+    margin-left: 30px;
+}
+
+.header-c-4 ul li + li {
+    margin-left: 15px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.header-menu {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#selected {
+    color:#2b2b2b;
+    font-weight: 500;
+}
+
+.sub-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sub-menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .sub-menu a {
+    text-decoration: none;
+    color: #929292; 
+    position: relative;
+  }
+  
+  .sub-menu a:hover {
+    color: #2b2b2b; 
+  }
+  
+  .sub-menu a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: rgb(119 186 238); 
+    position: absolute;
+    bottom: -12px; 
+    left: 0;
+    transition: width 0.3s ease; 
+  }
+  
+  .sub-menu a:hover::after {
+    width: 100%;
+  }
