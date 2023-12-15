@@ -1,0 +1,6 @@
+header {
+    overflow: hidden;
+    height: 60px;
+    background-color: var(--ap-background-color-other);
+}
+
