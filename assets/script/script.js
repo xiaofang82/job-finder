@@ -27,7 +27,7 @@ function login() {
         location.href = "index.html";
         //alert("Logged In");
         // Redirect the user to the home page
-        // window.location.href = 'home.html';  here add your home page html file name
+        window.location.href = 'index.html';  //here add your home page html file name
     } else {
         document.getElementById('errorMessage').textContent = 'Incorrect username or password';
         document.getElementById("username").style.border ="2px solid red";
