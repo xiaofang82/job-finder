@@ -24,7 +24,8 @@ function login() {
         localStorage.setItem('password', enteredPassword);
         
         document.getElementById('errorMessage').textContent = '';
-        alert("Logged In");
+        location.href = "index.html";
+        //alert("Logged In");
         // Redirect the user to the home page
         // window.location.href = 'home.html';  here add your home page html file name
     } else {
