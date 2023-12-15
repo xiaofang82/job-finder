@@ -204,6 +204,7 @@ img {
 }
 
 .content-right {
+    padding-left: 10px;
     width: 18%;
     text-align: center;
  }
