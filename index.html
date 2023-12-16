@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=dev-width,initial-scale=1">
@@ -13,12 +14,15 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/script/index.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="container flexbox">
-           <div class="row header1">
-                <div class="column header-c-1 header-shadow"><i class="fa-brands fa-linkedin fa-2xl" style="color: #77baee;"></i></div>
-                <div class="column header-c-2 header-shadow"><input type="text" placeholder="Search" class="search"></div>
+            <div class="row header1">
+                <div class="column header-c-1 header-shadow"><i class="fa-brands fa-linkedin fa-2xl"
+                        style="color: #77baee;"></i></div>
+                <div class="column header-c-2 header-shadow"><input type="text" placeholder="Search" class="search">
+                </div>
                 <div class="column header-c-3 header-shadow">
                     <nav>
                         <ul>
@@ -40,17 +44,17 @@
                     </nav>
                 </div>
                 <div class="column header-c-5"><img src="assets/image/photo.jpg" class="photo"></div>
-           </div>
-           <div class="row header-menu">             
+            </div>
+            <div class="row header-menu">
                 <nav class="sub-menu">
-                     <ul>
+                    <ul>
                         <li><a href="#" id="selected">Post</a></li>
                         <li><a href="#">Background</i></a></li>
                         <li><a href="#">Recommendation</a></li>
                         <li><a href="#">following</a></li>
                     </ul>
-                </nav>      
-           </div>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -75,17 +79,27 @@
                         </div>
                     </div>
                     <div class="line margin-t-10 margin-b-10 "></div>
-                    <div class="shallow-font align-left"><i class="fa-solid fa-link" style="color: #808080;"></i> https://www.linkedin.com/</div>
-                    <div class="shallow-font  align-left"><i class="fa-solid fa-globe" style="color: #808080;"></i> http://github.com</div>
+                    <div class="shallow-font textl" id="textl">
+                        <div class="icon-and-url">
+                            <i class="fa-solid fa-link" style="color: #808080;"></i>
+                            <div class="linkedin-url">https://www.linkedin.com/ </div>
+                        </div>
+                    </div>
+                    <div class="shallow-font  align-left"><i class="fa-solid fa-globe" style="color: #808080;"></i>
+                        http://github.com</div>
                     <div class="line"></div>
-                    <div class="shallow-font margin-t-10 align-left"><i class="fa-solid fa-floppy-disk" style="color: #808080;"></i>Export page as PDF</div>
+                    <div class="shallow-font margin-t-10 align-left"><i class="fa-solid fa-floppy-disk"
+                            style="color: #808080;"></i>Export page as PDF</div>
                 </div>
                 <div class="column content-middle margin-l-10">
                     <div class="bg-white padding-20">
                         <div class="row">
-                            <div class="column align-left"><h2>POSTS</h2></div>
+                            <div class="column align-left">
+                                <h2>POSTS</h2>
+                            </div>
                             <div class="column align-right"><img src="./assets/image/arrow-left-8-24.png">
-                                <img src="./assets/image/arrow-right-8-24.png"></div>
+                                <img src="./assets/image/arrow-right-8-24.png">
+                            </div>
                         </div>
                         <div class="row margin-t-10">
                             <div class="column">
@@ -111,38 +125,46 @@
                         </div>
                         <div class="line margin-b-10 margin-t-10"></div>
                         <div class="row dark-font margin-t-10">
-                            <div class="column margin-r-5 margin-t-10"><img src="./assets/image/text-file-4-24.png"></div>
+                            <div class="column margin-r-5 margin-t-10"><img src="./assets/image/text-file-4-24.png">
+                            </div>
                             <div class="column margin-t-10">
                                 <div class="align-left">SUMMARY</div>
-                                <div class="align-left detail">Detail-oriented Technical Writer with 7+ years of experience in writing end-user 
-                                    documentation, specializing in user help guides. Excellent writing, analytical thinking, research,
-                                    and time management skills. Rewrote over 80% of user help guides for 30+ products at Company X, 
+                                <div class="align-left detail">Detail-oriented Technical Writer with 7+ years of
+                                    experience in writing end-user
+                                    documentation, specializing in user help guides. Excellent writing, analytical
+                                    thinking, research,
+                                    and time management skills. Rewrote over 80% of user help guides for 30+ products at
+                                    Company X,
                                     resulting in a 42% decrease in product-related customer support calls.
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="row dark-font margin-t-20 padding-b-20">
                             <div class="column margin-r-5"><img src="./assets/image/baggage-24.png"></div>
                             <div class="column">
                                 <div class="align-left">Experience</div>
-                                <div class="align-left detail">Highly skilled Programmer with 4 years of experience in developing and implementing
-                                     innovative software solutions. Proven track record in improving system performance by up to 40%, reducing testing
-                                      time by 50%, and increasing user engagement by 30%.
+                                <div class="align-left detail">Highly skilled Programmer with 4 years of experience in
+                                    developing and implementing
+                                    innovative software solutions. Proven track record in improving system performance
+                                    by up to 40%, reducing testing
+                                    time by 50%, and increasing user engagement by 30%.
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
                 <div class="column margin-l-10 margin-b-10 content-right">
-                    <div class="align-left"><h2>PEOPLE ALSO VIEWED</h2></div>
+                    <div class="align-left">
+                        <h2>PEOPLE ALSO VIEWED</h2>
+                    </div>
                     <div id="user-board">
-                        
+
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </main>
     <footer>
@@ -150,17 +172,18 @@
             <div class="row " id="largfooter">
                 <nav>
                     <ul>
-                       <li><a href="#">About Us</a></li>
-                       <li><a href="#">Help</i></a></li>
-                       <li><a href="#">Service</a></li>
-                       <li><a href="#">Contact Us</a></li>
-                       <li><a href="#">Site Map</a></li>
-                   </ul>
-               </nav> 
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Help</i></a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </nav>
             </div>
 
             <div class=" rowcopyright">&copy; Harsimran Jot Kaur, Xiaofang Yang</div>
         </div>
     </footer>
 </body>
+
 </html>

@@ -133,7 +133,7 @@ main {
     font-size: 13px;
     color: var(--font-shallow-color);
 }
-
+ 
 .dark-font {
     font-size: 13px;
     color: var(--font-dark-color);
@@ -141,14 +141,33 @@ main {
 
 .align-left {
     text-align: left;
-    height: 20px;
+    height: 30px;
+}
+
+.linkedin-url {
+    margin-bottom: 100px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 70px; /* Adjust the maximum width as needed */
+    color: var(--font-bitdark-color);
+}
+
+.icon-and-url {
+    display: flex;
+    align-items: center;
+}
+
+.icon-and-url i {
+    margin-right: 5px; /* Adjust as needed */
 }
 
 .align-right {
     text-align: right;
     height: 30px;
 }
-
+ 
 h2 {
     font-size: 15px;
     font-weight: 600;
@@ -157,7 +176,6 @@ h2 {
 
 .padding-20 {
     padding: 20px 20px 0px 20px;
-
 }
 
 .padding-5 {
@@ -199,7 +217,6 @@ img {
 
 .padding-b-20 {
     padding-bottom: 20px;
-
 }
 
 .content-right {
