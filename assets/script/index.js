@@ -20,8 +20,6 @@ function create(element,parent=document){
     return parent.createElement(element);
 }
 
-
-
 const URL= 'https://randomuser.me/api/?nat=CA&results=10&seed=same';
 
 const options = {
@@ -49,8 +47,6 @@ async function getUser(){
     }catch(error){
         console.log(error.message);
     }
-
-    
 }
 
 function showUser(users){
