@@ -1,3 +1,5 @@
+'use strict';
+
 const dummyUsers = [
     { username: 'user1', password: 'pwd1' },
     { username: 'user2', password: 'pwd2' },
@@ -24,10 +26,10 @@ function login() {
         localStorage.setItem('password', enteredPassword);
         
         document.getElementById('errorMessage').textContent = '';
-        location.href = "index.html";
+ 
         //alert("Logged In");
         // Redirect the user to the home page
-        window.location.href = 'index.html';  //here add your home page html file name
+        window.location.href = 'index.html';   
     } else {
         document.getElementById('errorMessage').textContent = 'Incorrect username or password';
         document.getElementById("username").style.border ="2px solid red";
@@ -38,6 +40,5 @@ function signup()
 {
   alert("Not Done Yet");
 }
-                       //Hint For you
-// Fetch data from the Random User API and display connections on the home page+
+  
  

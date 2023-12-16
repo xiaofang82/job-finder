@@ -28,7 +28,7 @@ main {
 
 .row {
     display: flex;
-    height: auto;
+    height: max-content;
 }
   
 .column {
@@ -141,7 +141,7 @@ main {
 
 .align-left {
     text-align: left;
-    height: 30px;
+    height: 20px;
 }
 
 .align-right {
@@ -215,3 +215,9 @@ img {
 .width-120 {
     width: 120px;
 }
+
+body {
+    width: 100%;
+    height: max-content;
+}
+
