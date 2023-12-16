@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=dev-width,initial-scale=1">
+    <meta name="keywords" content="Job Finder">
+    <meta name="author" content="Xiaofang Yang,Harsimran Jot Kaur">
+    <meta name="description" content="Job Finder, HTML, CSS, javascript">
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/script/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container flexbox">
+           <div class="row header1">
+                <div class="column header-c-1 header-shadow"><i class="fa-brands fa-linkedin fa-2xl" style="color: #77baee;"></i></div>
+                <div class="column header-c-2 header-shadow"><input type="text" placeholder="Search" class="search"></div>
+                <div class="column header-c-3 header-shadow">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Connections</a></li>
+                            <li><a href="#">Interest</a></li>
+                            <li><a href="#">Try Premium</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="column header-c-4 header-shadow">
+                    <nav>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-message fa-lg" style="color: #80e21d;"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-bell fa-lg" style="color: #e5b752;"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-user fa-lg" style="color: #cd9bee;"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="column header-c-5"><img src="assets/image/photo.jpg" class="photo"></div>
+           </div>
+           <div class="row header-menu">             
+                <nav class="sub-menu">
+                     <ul>
+                        <li><a href="#" id="selected">Post</a></li>
+                        <li><a href="#">Background</i></a></li>
+                        <li><a href="#">Recommendation</a></li>
+                        <li><a href="#">following</a></li>
+                    </ul>
+                </nav>      
+           </div>
+        </div>
+    </header>
+    <main>
+        <div class="container flexbox">
+            <div class="row margin-10">
+                <div class="column content-left bg-white">
+                    <div><img src="./assets/image/profile.jpg" class="profile-photo"></div>
+                    <div class="username">Mary Black</div>
+                    <div class="job">Popular Singer</div>
+                    <div class="country">Canada</div>
+                    <div class="button"><input type="button" value="Follow"></div>
+                    <div class="button margin-b-10"><input type="button" value="Connect"></div>
+                    <div class="line"></div>
+                    <div class="row margin-t-10">
+                        <div class="column header-shadow">
+                            <div class="figure">200</div>
+                            <div class="shallow-font">Connections</div>
+                        </div>
+                        <div class="column">
+                            <div class="figure">1.9M</div>
+                            <div class="shallow-font">Followers</div>
+                        </div>
+                    </div>
+                    <div class="line margin-t-10 margin-b-10 "></div>
+                    <div class="shallow-font align-left"><i class="fa-solid fa-link" style="color: #808080;"></i> https://www.linkedin.com/</div>
+                    <div class="shallow-font  align-left"><i class="fa-solid fa-globe" style="color: #808080;"></i> http://github.com</div>
+                    <div class="line"></div>
+                    <div class="shallow-font margin-t-10 align-left"><i class="fa-solid fa-floppy-disk" style="color: #808080;"></i>Export page as PDF</div>
+                </div>
+                <div class="column content-middle margin-l-10">
+                    <div class="bg-white padding-20">
+                        <div class="row">
+                            <div class="column align-left"><h2>POSTS</h2></div>
+                            <div class="column align-right"><img src="./assets/image/arrow-left-8-24.png">
+                                <img src="./assets/image/arrow-right-8-24.png"></div>
+                        </div>
+                        <div class="row margin-t-10">
+                            <div class="column">
+                                <div class="office1 office"></div>
+                                <div class="job margin-t-10">I love my office</div>
+                                <div class="country">March 21,2022</div>
+                            </div>
+                            <div class="column padding-5">
+                                <div class="office2 office"></div>
+                                <div class="job margin-t-10">MY good cofee</div>
+                                <div class="country">March 21,2022</div>
+                            </div>
+                            <div class="column padding-5">
+                                <div class="office3 office"></div>
+                                <div class="job margin-t-10">I have a challenge</div>
+                                <div class="country">March 21,2022</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white margin-10 padding-20">
+                        <div class="row">
+                            <h2>BACKGROUND</h2>
+                        </div>
+                        <div class="line margin-b-10 margin-t-10"></div>
+                        <div class="row dark-font margin-t-10">
+                            <div class="column margin-r-5 margin-t-10"><img src="./assets/image/text-file-4-24.png"></div>
+                            <div class="column margin-t-10">
+                                <div class="align-left">SUMMARY</div>
+                                <div class="align-left detail">Detail-oriented Technical Writer with 7+ years of experience in writing end-user 
+                                    documentation, specializing in user help guides. Excellent writing, analytical thinking, research,
+                                    and time management skills. Rewrote over 80% of user help guides for 30+ products at Company X, 
+                                    resulting in a 42% decrease in product-related customer support calls.
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row dark-font margin-t-20 padding-b-20" >
+                            <div class="column margin-r-5"><img src="./assets/image/baggage-24.png"></div>
+                            <div class="column" style="height: 120px;">
+                                <div class="align-left">Experience</div>
+                                <div class="align-left detail">Highly skilled Programmer with 4 years of experience in developing and implementing
+                                     innovative software solutions. Proven track record in improving system performance by up to 40%, reducing testing
+                                      time by 50%, and increasing user engagement by 30%.
+                                </div>
+                            <br><br>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="column margin-l-10 margin-b-10 content-right">
+                    <div class="align-left"><h2>PEOPLE ALSO VIEWED</h2></div>
+                    <br>
+                    <div id="user-board">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="container dark-font">
+            <div class="row " id="largfooter">
+                <nav>
+                    <ul>
+                       <li><a href="#">About Us</a></li>
+                       <li><a href="#">Help</i></a></li>
+                       <li><a href="#">Service</a></li>
+                       <li><a href="#">Contact Us</a></li>
+                       <li><a href="#">Site Map</a></li>
+                   </ul>
+               </nav> 
+            </div>
+
+            <div class=" rowcopyright">&copy; Harsimran Jot Kaur, Xiaofang Yang</div>
+        </div>
+    </footer>
+</body>
+</html>
